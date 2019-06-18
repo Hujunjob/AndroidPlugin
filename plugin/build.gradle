@@ -1,11 +1,18 @@
-apply plugin: 'com.android.application'
+if (!isPlugin.toBoolean()) {
+    apply plugin: 'com.android.application'
+} else {
+    apply plugin: 'com.android.library'
+}
+
 
 android {
     compileSdkVersion 28
 
 
     defaultConfig {
-        applicationId "com.hiscene.plugin"
+        if (!isPlugin.toBoolean()) {
+            applicationId "com.hiscene.plugin"
+        }
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
@@ -13,6 +20,20 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
+        sourceSets {
+            main {
+                if (!isPlugin.toBoolean()) {
+                    manifest.srcFile 'src/main/AndroidManifest.xml'
+                } else {
+                    manifest.srcFile 'src/main/release/AndroidManifest.xml'
+                }
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     buildTypes {
@@ -32,4 +53,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+
 }
