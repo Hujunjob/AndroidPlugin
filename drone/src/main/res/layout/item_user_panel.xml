@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_user"
+        android:scaleType="fitXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/police_dot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/txt_target_name"
+        android:textColor="#fff"
+        android:text="目标点"
+        android:textSize="11sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintLeft_toLeftOf="@+id/img_user"
+        app:layout_constraintTop_toTopOf="@+id/img_user"
+        app:layout_constraintBottom_toBottomOf="@+id/img_user"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/rl_small_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_between_gps_tag"
+        android:background="@drawable/bg_user_panel"
+        android:padding="6dp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toRightOf="@+id/img_user"
+        app:layout_constraintTop_toTopOf="@+id/img_user">
+
+        <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/icon_user"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/police_icon" />
+
+            <TextView
+                android:id="@+id/txt_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxEms="10"
+                android:maxLines="1"
+                android:text="警员"
+                android:textColor="@color/colorAccent"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txt_department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_alignLeft="@id/title"
+            android:layout_marginTop="6dp"
+            android:visibility="gone"
+            android:text="特巡警支队"
+            android:textColor="#ffc0c0c0"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/txt_longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_department"
+            android:layout_alignLeft="@id/txt_department"
+            android:layout_marginTop="6dp"
+            android:text="经度:"
+            android:textColor="#ffc0c0c0"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_longitude"
+            android:layout_alignLeft="@id/txt_longitude"
+            android:layout_marginTop="6dp"
+            android:text="纬度:"
+            android:textColor="#ffc0c0c0"
+            android:textSize="8sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

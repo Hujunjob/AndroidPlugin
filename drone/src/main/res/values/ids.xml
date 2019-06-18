@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageId" type="id"/>
+    <item name="tag_userid" type="id"/>
+    <item name="tag_username" type="id"/>
+    <item name="tag_longitude" type="id"/>
+    <item name="tag_latitude" type="id"/>
+</resources>

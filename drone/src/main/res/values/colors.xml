@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#1D6BEF</color>
+    <color name="color_primary_dark">#1D6BEF</color>
+    <color name="color_accent">#1D6BEF</color>
+    <color name="avatar_text_color">#ff1d6bef</color>
+    <color name="avatar_border_color">#ffCBE4FF</color>
+    <color name="window_background_light">#ffeeeeee</color>
+    <color name="window_background_dark">#ff303030</color>
+    <color name="list_divider_light">#ffe0e0e0</color>
+    <color name="list_divider_dark">#ff666666</color>
+
+    <color name="text_primary_light">#de000000</color>
+    <color name="text_primary_dark">#ffffffff</color>
+    <color name="text_secondary_light">#8a000000</color>
+    <color name="text_secondary_dark">#b3ffffff</color>
+
+    <color name="main_theme_color">#1D6BEF</color>
+    <color name="selectable_item_background_general_normal_light">@android:color/white</color>
+    <color name="selectable_item_background_general_pressed_light">#ffeeeeee</color>
+    <color name="selectable_item_background_general_normal_dark">#ff3c3c3c</color>
+    <color name="selectable_item_background_general_pressed_dark">#ff444444</color>
+
+    <color name="colorControlActivated_light">#0195ff</color>
+    <color name="colorControlActivated_dark">#e1bd0c</color>
+    <color name="colorSwitchThumbNormal_light">#ff666666</color>
+    <color name="colorSwitchThumbNormal_dark">#ff444444</color>
+    <color name="colorForeground_light">#006cb9</color>
+    <color name="colorForeground_dark">#9e8403</color>
+
+    <color name="colorCircleImageViewBorder">#e4e9ee</color>
+    <color name="blue">#3891F2</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <!-- CropImage -->
+    <color name="handle">#86C166</color>
+    <color name="data">#86C166</color>
+    <color name="guide">#AA86C166</color>
+    <color name="overlay">#AA1C1C1C</color>
+
+    <color name="bg_in_call">#2D3037</color>
+    <color name="white_board_bg">#213B3E</color>
+    <color name="empty_side_bg">#000000</color>
+    <color name="weak_mode_bg">#2D3037</color>
+
+    <color name="color_freeze_border">#008FFF</color>
+    <color name="color_gray">#66000000</color>
+    <color name="color_avatar_mask">#99000000</color>
+    <color name="common_text_primary">#ffffff</color>
+    <color name="common_text_hint">#66000000</color>
+    <color name="subject_text_primary">#353535</color>
+    <color name="subject_text_secondary">#FF757575</color>
+    <color name="color_disable">#e3e3e3</color>
+    <color name="common_bg">#2D3037</color>
+    <color name="call_hint">#b6b8bb</color>
+    <color name="contact_sidebar_textcolor">#969696</color>
+    <color name="contact_sidebar_bgcolor">#bef9b81b</color>
+
+    <color name="dialog_checkbox_title">#de000000</color>
+    <color name="dialog_checkbox_content">#1A1A1A</color>
+    <color name="dialog_checkbox_hint">#838383</color>
+    <color name="dialog_checkbox_button">#1D6BEF</color>
+
+    <!--  通话记录 -->
+    <color name="history_time_red">#FF2727</color>
+    <color name="history_time_gray">#8C8C8C</color>
+
+    <color name="color_message_title">#0079ff</color>
+    <color name="color_message_bg">#4c000000</color>
+    <color name="color_message_info">#ffffffff</color>
+    <color name="color_message_warning">#FF5722</color>
+    <color name="color_message_error">#ffff0000</color>
+    <color name="color_switch_mode_hint">#009DFF</color>
+    <color name="color_welcome_bg">#8C000000</color>
+    <color name="color_welcome_hint">#7fffffff</color>
+    <color name="color_list_divider">#ffdfdfdf</color>
+
+    <color name="navigationItemTextColor">#ff1A1A1A</color>
+    <color name="color_window_background">#fff7f7f7</color>
+    <color name="color_account_detail_title">#99000000</color>
+    <color name="color_account_detail_message">#de000000</color>
+
+    <color name="audio_mode_text">#1986FF</color>
+</resources>

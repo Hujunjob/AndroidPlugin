@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HiLeia</string>
+    <string name="my_qrcode">My QR Code</string>
+    <string name="qrcode_hint">Scan the QR code to sign in the HiLeia for glasses</string>
+
+    <string name="glasses_login">Auxiliary glasses terminal login</string>
+    <string name="Login">Sign In</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Sign Out</string>
+    <string name="logout_tip">Sing out now？</string>
+    <string name="logouting">Signing out</string>
+    <string name="get_code">获取验证码</string>
+    <string name="regain_code">重新获取</string>
+    <string name="label_qrcode_login_hint">Please enter your account and password first</string>
+    <string name="label_server_setting">Server Setting</string>
+    <string name="setting">Settings</string>
+    <string name="about">About</string>
+    <string name="apply_for_account">Sign Up</string>
+    <string name="choose">Done</string>
+    <string name="share">Share</string>
+    <string name="layout_dialog_loading">Loading</string>
+    <string name="label_auto_logging">Signing In &#8230;</string>
+    <string name="label_connected">Connected</string>
+    <string name="label_connecting">Connecting</string>
+    <string name="label_unconnected">Unconnected</string>
+    <string name="label_no_reminder">No reminder next time</string>
+    <string name="label_privatisation_login_hint">Please configure the server address before logging in</string>
+    <string name="label_protocol">Protocol:</string>
+    <string name="label_battery_low_hint">The system power is low, please connect to the charging line as soon as possible</string>
+
+    //关于
+    <string name="use_agreement">Terms</string>
+    <string name="privacy_policy">Privacy</string>
+    <string name="legal_notices">Legal</string>
+    <string name="label_copyright">亮风台信息科技 版权所有</string>
+    <string name="label_copyright2">Copyright©2012&#8211;2019 HiScene All Rights Reserved</string>
+
+    //反馈
+    <string name="feedback_hint">Please describe the issue you encountered</string>
+    <string name="email_hint">Your Email</string>
+    <string name="send_feedback">Send</string>
+    <string name="send_feedback_success">Thank you for your feedback</string>
+
+    //个人信息
+    <string name="label_account">Personal Details</string>
+    <string name="label_edit">Edit Avatar</string>
+    <string name="label_name">Name</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_email">Email</string>
+    <string name="label_company">Company</string>
+    <string name="label_department">Department</string>
+    <string name="label_position">Position</string>
+    <string name="label_sex">Gender</string>
+    <string name="label_birthday">Birthday</string>
+    <string name="label_district">District</string>
+    <string name="label_logout">Sign Out</string>
+    <string name="contact_details">Contact Details</string>
+
+    //我的二维码
+    <string name="label_qrcode_login">My QR Code</string>
+    <string name="label_glass_login">Scan QR code to login Hileia Glasses</string>
+    <string name="label_exitauto">Account will be log out on this device after scanning</string>
+
+    //设置
+    <string name="setting_notice">Notification</string>
+    <string name="label_call">Call</string>
+    <string name="setting_call">Call Settings</string>
+    <string name="setting_voip">Video Settings</string>
+    <string name="setting_voip_param">Video parameter setting</string>
+    <string name="setting_resolution">Video Resolution</string>
+    <string name="setting_engine">Audio and video engine</string>
+    <string name="receive_notification">Receive message push</string>
+    <string name="receive_notification_summary">It doesn\'t work</string>
+    <string name="setting_theme">Theme</string>
+    <string name="setting_theme_dark">Dark theme</string>
+    <string name="setting_speaker">Open speaker</string>
+    <string name="setting_mic">Open mic</string>
+    <string name="setting_camera">Open camera</string>
+    <string name="setting_smart">Use SmartDevice</string>
+    <string name="setting_summery">It is open by default in call</string>
+    <string name="setting_fps">Frame Rate</string>
+    <string name="setting_max_bps">Maximum Bitrate(kbps)</string>
+    <string name="setting_min_bps">Minimum Bitrate(kbps)</string>
+    <string name="setting_hardware_encode">Hardware encode</string>
+    <string name="setting_hardware_decode">Hardware decode</string>
+    <string name="setting_retouch">Retouch</string>
+    <string name="setting_freeze">Freeze</string>
+    <string name="setting_fullscreen">Fullscreen by default</string>
+    <string name="advanced_setting">Advanced Settings</string>
+    <string name="title_max_bps">Set maximum bitrate</string>
+    <string name="title_min_bps">Set minimum bitrate</string>
+    <string name="title_fps">Set frame rate</string>
+    <string name="setting_content_not_null">Content cannot be empty</string>
+    <string name="setting_debug_mode">Developer Mode</string>
+    <string name="P720">720P</string>
+    <string name="P480">480P</string>
+    <string name="P360">360P</string>
+    <string name="engine_youme">YouMe</string>
+    <string name="engine_zego">Zego</string>
+    <string name="label_save">Save</string>
+
+    //主界面
+    <string name="contacts">Contacts</string>
+    <string name="call_history">Call History</string>
+    <string name="label_recent_contact">Recent Contacts</string>
+    <string name="label_query_contacts_hint">Search</string>
+    <string name="login_wait_for_contact">No contacts</string>
+    <string name="label_beyond_numberofcalls">Exceed 6-party number limit</string>
+    <string name="label_no_contact_hint">Please contact the business to add contacts</string>
+    <string name="lable_start_videocall">Call</string>
+    <string name="voip_call_limited">%s/5</string>
+    <string name="voip_call_empty_contacts">The contact list is empty！</string>
+    <string name="label_retry_fresh_hint">Loaded failed, please try again!</string>
+    <string name="label_retry">Retry</string>
+
+    //开始通话
+    <string name="sure">OK</string>
+    <string name="sure_with_count">OK(%1$d/5)</string>
+    <string name="voip_call">Call</string>
+    <string name="voip_choose_contact">Select contact to create call</string>
+    <string name="voip_call_inviting">Calling</string>
+    <string name="voip_call_waiting">Waiting for response&#8230;</string>
+    <string name="voip_incall_mediaerror">connection fail</string>
+    <string name="voip_incall_answering">Answering&#8230;</string>
+    <string name="voip_incall_waiting">Connecting&#8230;</string>
+    <string name="voip_incall_offline">Offline</string>
+    <string name="voip_incall_lost_connect">Disconnection</string>
+    <string name="voip_incall_busy">Busy&#8230;</string>
+    <string name="voip_incall_leave">Leaved</string>
+    <string name="voip_incall_timeout">Timeout</string>
+    <string name="voip_call_connecting">Connecting</string>
+    <string name="voip_call_timeout">Timeout</string>
+    <string name="voip_call_enter_media_error">Enter room error</string>
+    <string name="voip_call_hangup">Cancelled</string>
+    <string name="voip_call_decline">Declined</string>
+    <string name="voip_call_network_error">Network connection is not reachable, please check</string>
+    <string name="voip_call_invalid_token">Your login has expired, please login again and try again</string>
+    <string name="voip_call_interrupt">Call ending</string>
+    <string name="voip_call_terminated">Call ended</string>
+    <string name="message_reconnect">Network disconnect, trying to reconnect&#8230;</string>
+
+    //通话中
+    <string name="label_invite_call">Invite Contacts</string>
+    <string name="voip_video_call_inviting">Invites you to video call</string>
+    <string name="voip_mt_busy">Busy</string>
+    <string name="voip_mt_offline">User offine</string>
+    <string name="user_name_me">Me</string>
+    <string name="voip_invite_multicall">Select contacts</string>
+    <string name="video_quality_bad">The current network quality is poor</string>
+    <string name="video_quality_very_bad">The current network quality is poor</string>
+    <string name="video_quality_worst">The current network quality is poor</string>
+    <string name="alert_open_camera_title">Alert</string>
+    <string name="alert_open_camera_body">In order to avoid the decrease of the quality of the video，recommend limiting hd video goes under 4 road. Are you sure?</string>
+
+    //登录异常
+    <string name="exception_message_no_connection">The current network is unavailable, please check the network and login again</string>
+    <string name="exception_message_phone_not_null">Mobile phone number cannot be empty</string>
+    <string name="exception_message_phone_illegal">Illegal phone number</string>
+    <string name="exception_message_password_not_null">Password cannot be empty</string>
+    <string name="exception_message_phone_or_password_incorrect"> Incorrect phonenumber or password</string>
+    <string name="exception_message_server_error">Server access failed</string>
+    <string name="exception_message_imserver_error">IM server login failed</string>
+    <string name="exception_message_timeout_error">Network connection timeout</string>
+    <string name="exception_message_already_login">This account is already logged in other device</string>
+    <string name="exception_message_id_not_null">Please fill out your email</string>
+    <string name="exception_message_content_not_null">Please describe the problem you have encountered</string>
+    <string name="exception_message_zip_failed">Log file compression exception</string>
+    <string name="exception_offline_enforce">Your account has been logged in on other devices</string>
+    <string name="exception_message_invalid_token">Token expired, please login again</string>
+    <string name="exception_message_invalid_imtoken">im Token expired, please login again</string>
+    <string name="exception_message_account_not_exist">The account does not exist</string>
+    <string name="exception_message_server_system_error">Server system error</string>
+    <string name="exception_message_handshake_error">Please try to calibrate the current system time before retrying</string>
+    <string name="exception_message_account_expired">The account has expired, please contact the service provider</string>
+    <string name="exception_message_phone_format_error">Invalid phone number format</string>
+
+    //权限
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="permission_denied">Permissions were denied. Please consider granting it!</string>
+    <string name="permission_never_ask_again">Permissions were denied with never ask again.</string>
+    <string name="permission_rationale">Permissions are needed to demonstrate access to App</string>
+
+
+    //导航
+    <string name="advice_feedback">Feedback</string>
+    <string name="check_update">Update</string>
+    <string name="app_help">Help</string>
+
+    //公共
+    <string name="label_upload_success">Avatar uploaded successfully</string>
+    <string name="crop_image">Crop</string>
+    <string name="label_save_failed">Save failed</string>
+    <string name="dialog_bottom_picture">Take a picture</string>
+    <string name="dialog_bottom_import_from_local">Import from local</string>
+    <string name="label_network_reconnecting">Reconnecting&#8230;</string>
+    <string name="label_backstage">HiLeia running background</string>
+    <string name="label_request_error">Network request failed</string>
+
+    //检查更新
+    <string name="download_fail">Download Fail</string>
+    <string name="downloading">Downloading&#8230;</string>
+    <string name="download_success">Download Success</string>
+    <string name="label_discover_new_version">There is a new version</string>
+    <string name="label_update_now">Update now</string>
+    <string name="label_current_version">Current version</string>
+    <string name="label_update_later">Update later</string>
+    <string name="label_quit">Quit</string>
+    <string name="label_is_update_now">Update now?</string>
+    <string name="label_force_update">In order not to affect your normal use, please be sure to upgrade to the latest version.</string>
+    <string name="error_upload_file_not_exist">Failed to read file</string>
+    <string name="label_already_latest_version">It\'s the latest version</string>
+    <string name="label_version">Latest version:&#160;</string>
+    <string name="txt_welcome">A more efficient way of working</string>
+
+    //通话中错误
+    <string name="error_default">Error occur</string>
+    <string name="error_not_in_channel">Not in channel</string>
+    <string name="error_bad_connection">Bad connection</string>
+    <string name="error_bad_connection_invalid">Connection recovery</string>
+    <string name="error_pull_error">Save video error</string>
+    <string name="error_pull_error_no_pri">Please contact business to open the recording function of video</string>
+    <string name="error_pull_error_no_video">Please turn on audio and video before recording</string>
+    <string name="is_downloading">Freezing screen&#8230;</string>
+    <string name="error_upload_fail">Upload failed</string>
+    <string name="error_no_full_screen">Currently no full screen video, invalid operation</string>
+    <string name="error_upload_image">Upload failed due to poor network</string>
+    <string name="error_download_image">Upload failed due to poor network</string>
+    <string name="error_in_other_state">The current operation and the status in progress are mutually exclusive, and the operation is invalid</string>
+    <string name="error_camera_not_open">Camera\'s not open</string>
+    <string name="error_not_support_more_video">Only support less than 4 videos</string>
+    <string name="error_camera_error">An error occurred while opening the camera. Please check and try again</string>
+    <string name="error_freeze_error">Error in screenshot operation</string>
+    <string name="error_control_error">Status conflict</string>
+    <string name="error_upload_un_complete">Poor network, please wait</string>
+    <string name="error_video_route_limited">Support 4-way videos maximum</string>
+    <string name="error_cannot_close_camera_when_mark">Current video is being marked real-time. Please do not close!</string>
+
+    //主持人控制
+    <string name="dialog_close_title">Notice</string>
+    <string name="dialog_close_freeze_message">Frozen picture and marks will be cleared</string>
+    <string name="dialog_close_board_message">White board will be cleared</string>
+    <string name="dialog_close_mark_message">Are you sure to exit the Real-time Mark mode</string>
+    <string name="dialog_close_choose">No longer reminder</string>
+
+    <!--引导页-->
+    <string name="btn_enter">Enter</string>
+    <string name="btn_skip">Skip</string>
+    <string name="guide_hint_1">HD Audio and Video Communications</string>
+    <string name="guide_hint_2">Accurate and Efficient Collaboration</string>
+    <string name="guide_hint_3">Multi-platform Adaptation</string>
+    <string name="label_search_contacts">Search for contacts</string>
+    <string name="label_create_multi_call">Select contacts</string>
+    <string name="label_send_local_image">Upload image</string>
+    <string name="label_freeze_image_to_draw">Freeze screen</string>
+    <string name="label_whiteboard">WhiteBoard mode</string>
+    <string name="label_realtime_mark">Real-time Mark mode</string>
+    <string name="label_flip_camera">Switch front/back camera</string>
+    <string name="label_brush_color">Brush color</string>
+    <string name="label_brush_size">Brush size</string>
+    <string name="label_undo">Undo</string>
+    <string name="label_clear_board">Clear board</string>
+    <string name="label_exit_board">Exit board mode</string>
+    <string name="label_mark_hint">Click anywhere on video to mark</string>
+    <string name="label_exit_mark">Exit mark mode</string>
+    <string name="label_open_camera">Open/close Camera</string>
+    <string name="label_switch_camera">Switch camera</string>
+    <string name="label_double_click_fullscreen">Double-click video to enter full screen display</string>
+    <string name="label_double_click_splitscreen">Double-click video to exit full screen display</string>
+    <string name="label_record_camera">Video Record</string>
+    <string name="label_record_finished">Video has been recorded</string>
+
+    <string name="dialog_control_glass_lable">Remote Control Glasses</string>
+    <string name="dialog_control_light">Control Flashlight</string>
+    <string name="dialog_control_light_button">Switch</string>
+
+    <string name="dialog_control_record">Record Video</string>
+    <string name="dialog_control_record_button">Record</string>
+    <string name="dialog_control_recording_button">Recording&#8230;</string>
+
+    <string name="dialog_control_camera">Switch Camera</string>
+    <string name="dialog_control_camera_button">Switch</string>
+
+    <string name="dialog_control_switch_video">Switch Preview Video</string>
+    <string name="dialog_control_hang">Remote Hang</string>
+    <string name="dialog_control_hang_button">Hang</string>
+
+    <string name="dialog_control_freeze">Remote Freeze</string>
+    <string name="dialog_control_freeze_button">Freeze</string>
+    <string name="dialog_control_close_freeze_button">Close</string>
+
+    //通话记录
+    <string name="history_today">Today</string>
+    <string name="history_yesterday">Yesterday</string>
+    <string name="history_no_connect">Disconnect</string>
+    <string name="history_no_answer">No Answer</string>
+    <string name="history_connect">Connect&#160;</string>
+    <string name="history_time_sec">&#160;s&#160;</string>
+    <string name="history_time_min">&#160;m&#160;</string>
+    <string name="history_time_hour">&#160;h&#160;</string>
+    <string name="history_more">More call logs on Hileia\'s company website. </string>
+    <string name="label_no_call_history">No history</string>
+    <string name="label_loading">Loading&#8230;</string>
+    <string name="label_error_hint">Only support glasses terminal</string>
+
+
+    //语音模式
+    <string name="label_voice_mode">Voice Mode</string>
+    <string name="label_video_mode">Video Mode</string>
+    <string name="label_voice_mode_dialog_title">Switch voice mode</string>
+    <string name="label_video_mode_dialog_title">Switch video mode</string>
+    <string name="label_voice_mode_dialog_content">Switching to video mode will cause video stuck when the connection quality is poor. Do you want to switch?</string>
+    <string name="label_video_mode_dialog_content">Switching to voice mode limits some video related functions. Do you want to switch?</string>
+    <string name="label_voice_mode_operation_forbid">the function is temporarily disabled in voice mode</string>
+    <string name="label_voice_mode_info">If you need to capture the preview view to share with other participants, please click the freeze screen button to open the local preview; Press the freeze screen button again to initiate the freeze screen.</string>
+    <string name="label_switch">Switching to&#160;</string>
+    <string name="label_bad_network_hint">Current connection quality is poor，Recommend switching to&#160;</string>
+
+    <!--弹幕消息-->
+    <string name="board_message_open_camera">%1$s&#160;opens camera</string>
+    <string name="board_message_close_camera">%1$s&#160;closes camera</string>
+    <string name="board_message_user_join">%1$s&#160;Join</string>
+    <string name="board_message_user_leave">%1$s&#160;Leave</string>
+    <string name="board_message_open_freeze">%1$s&#160;captures frame</string>
+    <string name="board_message_close_freeze">%1$s&#160;closes frame</string>
+    <string name="board_message_close_mark">%1$s&#160;closes mark</string>
+    <string name="board_message_open_mark">%1$s&#160;starts mark</string>
+    <string name="board_message_open_whiteboard">%1$s&#160;starts white board</string>
+    <string name="board_message_close_whiteboard">%1$s&#160;closes white board</string>
+    <string name="board_message_myself">Me</string>
+    <string name="board_message_voice_mode">%1$s&#160;switch to audio mode</string>
+    <string name="board_message_video_mode">%1$s&#160;switch to video mode</string>
+    <string name="label_remote_switchVideo">%1$s&#160;Remote Switching video</string>
+    <string name="label_remote_endcall">%1$s&#160;hang up the phone remotely</string>
+    <string name="label_remote_record">%1$s&#160;controlled recording remotely</string>
+    <string name="label_remote_switchcamera">%1$s&#160;switch camera remotely</string>
+    <string name="label_remote_switchflashlight">%1$s&#160;switch flashlight remotely</string>
+</resources>

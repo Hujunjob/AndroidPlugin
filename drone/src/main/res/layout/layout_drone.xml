@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/ll_drone_info"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt_altitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="高度"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/txt_drone_gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="无人机GPS"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/txt_p1_gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="警员GPS"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/txt_drone_gesture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="无人机姿态"
+            android:textColor="@color/colorAccent" />
+
+
+        <TextView
+            android:id="@+id/txt_drone_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="无人机位置"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/txt_p1_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="警员位置"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cl_edit_ratio"
+        android:visibility="gone"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/btn_up_x"
+            android:text="增"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            app:layout_constraintLeft_toRightOf="@+id/btn_up_x"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="0"
+            android:id="@+id/edit_ratiox"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="降"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/edit_ratiox"
+            android:layout_width="50dp"
+            android:id="@+id/btn_down_x"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            app:layout_constraintLeft_toRightOf="@+id/btn_down_x"
+            android:text="x"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            app:layout_constraintTop_toBottomOf="@+id/btn_up_x"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/btn_up_y"
+            android:text="增"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            app:layout_constraintLeft_toRightOf="@+id/btn_up_x"
+            app:layout_constraintTop_toBottomOf="@+id/btn_up_x"
+            android:text="0"
+            android:id="@+id/edit_ratioy"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_down_y"
+            android:text="降"
+            app:layout_constraintTop_toBottomOf="@+id/btn_up_x"
+            app:layout_constraintLeft_toRightOf="@+id/edit_ratiox"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            app:layout_constraintLeft_toRightOf="@+id/btn_down_y"
+            app:layout_constraintTop_toTopOf="@+id/btn_down_y"
+            android:text="y"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_switch"
+            app:layout_constraintTop_toBottomOf="@+id/btn_down_y"
+            android:text="SWITCH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <ImageView
+        android:id="@+id/img_compass"
+        android:layout_margin="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/compass"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll_icons"
+        android:layout_marginRight="60dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/img_route"
+            android:src="@drawable/route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/img_pin"
+            android:src="@drawable/pin_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_margin="10dp"
+            android:id="@+id/img_pin2"
+            android:src="@drawable/pin_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_margin="10dp"
+            android:id="@+id/img_pin3"
+            android:src="@drawable/policeicon2"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/img_tag"
+            android:src="@drawable/pin_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

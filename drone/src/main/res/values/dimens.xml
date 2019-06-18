@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="contact_list_icon_width">40dp</dimen>
+    <dimen name="contact_list_icon_height">40dp</dimen>
+
+    <dimen name="reference_corner_radius">4dp</dimen>
+    <dimen name="divide_height_size">1px</dimen>
+    <dimen name="avatar_border_size">1dp</dimen>
+    <dimen name="textSize">10sp</dimen>
+    <dimen name="hintTextSize">32sp</dimen>
+    <dimen name="padding">20dp</dimen>
+    <dimen name="item_radius">20dp</dimen>
+    <dimen name="circleRadius">24dp</dimen>
+
+    <dimen name="contact_item_margin_left">54dp</dimen>
+    <dimen name="history_item_margin_left">16dp</dimen>
+    <dimen name="history_list_icon_width">40dp</dimen>
+    <dimen name="history_list_icon_height">40dp</dimen>
+
+    <dimen name="jumbo_text_size">24sp</dimen><!-- 特大字体大小 -->
+    <dimen name="big_text_size">20sp</dimen><!-- 大字体大小 -->
+    <dimen name="title_text_size">18sp</dimen><!-- 标题字体大小 -->
+    <dimen name="normal_text_size">16sp</dimen><!-- 通常字体大小 -->
+    <dimen name="medium_text_size">14sp</dimen><!-- 中等字体大小 -->
+    <dimen name="small_text_size">12sp</dimen><!-- 小号字体大小 -->
+    <dimen name="guide_text_size">28sp</dimen>
+
+    <dimen name="freeze_border_size">6dp</dimen>
+    <dimen name="small_size_margin_x">16dp</dimen> <!-- 左上角小屏幕显示的窗口左间距 -->
+    <dimen name="small_size_margin_y">16dp</dimen>
+    <dimen name="input_edit_width">310dp</dimen>
+    <dimen name="small_size_width">142dp</dimen>
+    <dimen name="small_size_height">80dp</dimen>
+
+    <dimen name="list_item_height">64dp</dimen>
+    <dimen name="main_tabbar_width">160dp</dimen>
+    <dimen name="main_tabbar_height">32dp</dimen>
+    <dimen name="vertical_toolbar_icon_first_and_last_margin_top">6dp</dimen>
+    <dimen name="vertical_toolbar_icon_margin_top">4dp</dimen>
+    <dimen name="vertical_toolbar_margin_end">12dp</dimen>
+    <dimen name="toolbar_width">44dp</dimen>
+    <dimen name="toolbar_icon_width">40dp</dimen>
+    <dimen name="toolbar_icon_height">40dp</dimen>
+    <dimen name="horizontal_toolbar_margin_bottom">16dp</dimen>
+    <dimen name="horizontal_toolbar_icon_margin_start">27dp</dimen>
+    <dimen name="hangup_icon_width">60dp</dimen>
+    <dimen name="hangup_icon_height">60dp</dimen>
+    <dimen name="speaker_mic_icon_width">44dp</dimen>
+    <dimen name="speaker_mic_icon_height">44dp</dimen>
+    <dimen name="invite_icon_width">64dp</dimen>
+    <dimen name="invite_icon_height">64dp</dimen>
+    <dimen name="incall_avatar_margin">5dp</dimen>
+    <dimen name="avatar_status_icon_width">20dp</dimen>
+    <dimen name="avatar_status_icon_height">20dp</dimen>
+    <dimen name="list_message_height">150dp</dimen>
+    <dimen name="list_message_margin_start">8dp</dimen>
+    <dimen name="list_message_margin_bottom">34dp</dimen>
+    <dimen name="drawer_layout_width">256dp</dimen>
+    <dimen name="guide_text_margin">25dp</dimen>
+    <dimen name="account_detail_list_item_height">55dp</dimen>
+    <dimen name="float_action_button_size">48dp</dimen>
+
+    <dimen name="audio_mode_width">44dp</dimen>
+    <dimen name="audio_mode_height">44dp</dimen>
+    <dimen name="audio_mode_text_right">9dp</dimen>
+    <dimen name="vertical_toolbar_guideline_margin_end">56dp</dimen>
+
+    <dimen name="panel_width">154dp</dimen>
+    <dimen name="panel_height">91dp</dimen>
+    <dimen name="gps_point_width">25dp</dimen>
+    <dimen name="gps_point_height">25dp</dimen>
+    <dimen name="drone_tag_width">94dp</dimen>
+    <dimen name="drone_tag_height">39dp</dimen>
+    <dimen name="police_tag_width">75dp</dimen>
+    <dimen name="police_tag_height">39dp</dimen>
+    <dimen name="leader_tag_width">94dp</dimen>
+    <dimen name="leader_tag_height">39dp</dimen>
+    <dimen name="revert_drone_width">140dp</dimen>
+    <dimen name="revert_police_width">120dp</dimen>
+    <dimen name="revert_leader_width">140dp</dimen>
+
+    <dimen name="whole_drone_offset">126dp</dimen>
+    <dimen name="whole_police_offset">97dp</dimen>
+    <dimen name="whole_leader_offset">126dp</dimen>
+
+    <dimen name="margin_between_gps_tag">10dp</dimen>
+</resources>
